@@ -1,0 +1,111 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+   display: flex;
+    height: 10vh;
+    background-color: #fbad50;
+}
+.left{
+    width: 20%;
+   
+
+
+}
+.kopila{
+    height: 77px;
+}
+.middle{
+    width: 50%;
+  
+   
+
+}
+.navbar{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+
+}
+.navbar li{
+    font-size: 30px;
+    text-decoration: none;
+    
+    
+
+}
+.navbar li a{
+    text-decoration: none;
+    color: beige;
+    
+
+}
+.right{
+    display: flex;
+    align-items: center;
+    
+   
+    width: 35%;
+
+
+}
+.signin{
+    background-color:#6879d0;
+    display: block;
+    height: 55px;
+    width: 20%;
+    position: relative;
+    top: 6px;
+    left: 42px;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 28px 29px 28px 28px;
+    padding: 9.5px 22px;
+    border: none;
+   
+   
+}
+.searchBar{
+    position: relative;
+    left:55px;
+    width: 60%;
+    background: rgba(255,255,255,0.2);
+    align-items: center;
+    display: flex;
+    border-radius: 16px 16px 16px 16px;
+    
+   
+}
+.searchBar input{
+
+   
+    flex: 1;
+    padding:16px 10px;
+    font-size: 20px;
+    
+    width: 10%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    color: #cac7ff;
+}
+::placeholder{
+    color: white;
+
+}
+.searchBar button{
+    border:0;
+    background-color:transparent;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #ecefe4;
+   
+
+}
+
